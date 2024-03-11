@@ -1,0 +1,23 @@
+.country-grid {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+  }
+  
+  .country-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .country-card img {
+    max-width: 100px;
+    height: auto;
+  }
+  
